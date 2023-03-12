@@ -75,14 +75,11 @@ span {
 
 .topSticot {
     position: absolute;
-    right: 0;
     right: 21%;
-    /* transform: translateX(300px); */
     background-color: white;
     border-radius: 10px 10px 0 10px;
     font-size: 12px;
     color : #9898a0;
-    /* vertical-align: middle; */
     padding: 0 30px;
 }
 
@@ -97,6 +94,11 @@ span {
 .topSticot span {
     font-size: 35px;
     color: black;
+}
+
+.intopSticot {
+    display: flex;
+    align-items: center;
 }
 
 .bottomSticot {
@@ -199,10 +201,3 @@ footer a {
     
         text-align: center;}
 }
-/*
-position: absolute;
-right: 0;
-background-color: white;
-border-radius: 10px 10px 0 10px;
-font-size: 12px;
-padding: 0 30px;
